@@ -1,6 +1,8 @@
 ## IoT Project Alan INF1B
 
-Voor mijn IoT project ga ik een volledig functionerende beveiligingscamera maken.
+
+v0.1
+Voor mijn IoT project ga ik een volledig functionerende beveiligingscamera maken, die via een bewegingsensor zal werken.
 
 Benodigdheden:
   1. Raspberry Pi
@@ -9,4 +11,8 @@ Benodigdheden:
   4. Power supply
   5. Micro SD kaart (8GB of hoger)
   6. Internet kabel
+  7. A way of monitoring and displaying it:
+      ThingSpeak
+      TensorFlow ?? 
+  
   
