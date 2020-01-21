@@ -2,7 +2,10 @@
 
 
 v0.1
-Voor mijn IoT project ga ik een volledig functionerende beveiligingscamera maken, die via een bewegingsensor zal werken.
+Voor mijn IoT project ga ik een volledig functionerende beveiligingscamera maken, die via een bewegingsensor zal werken. 
+De bedoeling is dat via de bewegingssensor de camera foto/foto's maakt van wat er is/wordt bewogen. Vanwege financiele redenen, 
+en het feit dat dit mijn 1e IoT project wordt, zal het geen videocamera worden. Puur foto's gebaseerd op beweging in de omgeving van de sensor.
+
 
 Benodigdheden:
   1. Raspberry Pi
@@ -10,8 +13,10 @@ Benodigdheden:
   3. Motion sensor / bewegingssensor 
   4. Power supply
   5. Micro SD kaart (8GB of hoger)
-  6. Internet kabel
-  7. A way of monitoring and displaying it:
+  6. Breadboard
+  7. Jumper Wires 
+  8. Internet kabel
+  9. A way of monitoring and displaying it:
       ThingSpeak
       TensorFlow ?? 
   
