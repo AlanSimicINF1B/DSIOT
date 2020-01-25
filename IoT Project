@@ -8,17 +8,20 @@ en het feit dat dit mijn 1e IoT project wordt, zal het geen videocamera worden. 
 
 
 Benodigdheden:
-  1. Raspberry Pi
-  2. Raspberry Pi camera 
-  3. Motion sensor / bewegingssensor 
-  4. Power supply
-  5. Micro SD kaart (8GB of hoger)
-  6. Breadboard
-  7. Jumper Wires 
-  8. Internet kabel
-  9. A way of monitoring and displaying it:
+  1. Externe display (TV/Monitor)
+  2. Externe muis
+  3. Extern toetsenbord
+  4. HDMI kabel
+  5. Raspberry Pi
+  6. Power supply
+  7. Micro SD kaart (8GB of hoger) 
+  8. Raspberry Pi camera 
+  9. Motion sensor / bewegingssensor
+  10. Breadboard
+  11. Jumper Wires 
+  12. A way of monitoring and displaying it:
       ThingSpeak
-      TensorFlow ?? 
+      TensorFlow 
   
   
 Kosten van het project:
@@ -33,4 +36,33 @@ Premium Jumperwires op strip - 40 stuks - M/F - 20cm	JW-MF-40-20	1	€ 4,95	€ 
 totaal: 81.36
 + 2x verzendkosten van 4,95:
 totaal: += 90 euro.
+
+
+Raspberry Pi setup.
+
+Om de Raspberry Pi werkend te krijgen, heb ik Raspbian (In samenwerking met Debian, een operating system voor de Raspberry Pi),
+via externe software (BalenaEtcher) op de aangeschafde micro SD kaart 'geflasht'. Vervolgens heb ik de Pi met het toetsenbord
+en de muis aangesloten op mijn TV. Nadat ik verbinding had en in de Pi zat, heb ik hem verbonden met het internet (mijn WiFi thuis).
+
+Vervolgens heb ik VNC Viewer op mijn laptop geinstalleerd, en via de Viewer op de Pi aan elkaar gelinkt. Hierdoor kan ik via mijn laptop 
+de Pi zien en bedienen, zonder externe display, muis en/of toetsenbord.
+
+
+Raspberry Pi Camera 8MP setup.
+
+Dit is de meest standaard Raspberry Pi camera op de markt en was erg makkelijk om te verbinden. In de Pi Configuration instellingen hoeft
+er alleen een 'CAMERA' optie aangevinkt te worden. Toen ik de camera ansloot aan de Pi, in het juiste paneel (letterlijk aangegeven met
+'CAMERA', heb ik de Pi reboot. 
+Om de camera voor foto's te testen, heb ik in de Pi command prompt 'raspistill -o Desktop/image.jpg' getypt. Er ontstaat dan een foto 
+die wordt opgeslagen onder de naam die je hem geeft (in mijn geval 'image.jpg').
+
+De volledige command prompt code ziet er hierbij uit als volgt:
+pi@raspberrypi:~ $ raspistill -o Desktop/image.jpg
+
+Om de camera voor video's te testen, heb ik in de Pi command prompt 'raspivid -o Desktop/video.h264' getypt. Er ontstaat dan net als bij
+de foto's, een video onder de gekozen naam (in mijn geval 'video.h264').
+
+De volledige command prompt code ziet er hierbij uit als volgt:
+pi@raspberrypi:~ $ raspivid -o Desktop/video.h264
+
 
