@@ -22,7 +22,8 @@ Benodigdheden:
   9. Motion sensor / bewegingssensor
   10. Breadboard
   11. Jumper Wires 
-  12. A way of monitoring and displaying it:
+  12. 100 Ohm Weerstand
+  13. A way of monitoring and displaying it:
       ThingSpeak
       TensorFlow 
   
@@ -33,6 +34,7 @@ Raspberry Pi 3 Model A+	KW-2297	1: € 27,95
 Raspberry Pi Camera Board V2 - 8MP	KW-1702	1: € 29,95
 Transcend 8GB microSD Ultimate 600x Class 10 UHS-I + Adapter - MLC - 90MB/s	TS8GUSDHC10U1	1: € 7,61
 400-punt breadboard	KW-1610	1: € 4,95
+Weerstand 100 Ohm - 1/4 watt - 5% - 10 stuks:	€ 1,00
 PIR Bewegingssensor	KW-1909	1: € 5,95
 Premium Jumperwires op strip - 40 stuks - M/F - 20cm	JW-MF-40-20	1: € 4,95
 
