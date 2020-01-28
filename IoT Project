@@ -29,12 +29,12 @@ Benodigdheden:
   
 Kosten van het project:
 
-Raspberry Pi 3 Model A+	KW-2297	1	€ 27,95	€ 27,95
-Raspberry Pi Camera Board V2 - 8MP	KW-1702	1	€ 29,95	€ 29,95
-Transcend 8GB microSD Ultimate 600x Class 10 UHS-I + Adapter - MLC - 90MB/s	TS8GUSDHC10U1	1	€ 7,61	€ 7,61
-400-punt breadboard	KW-1610	1	€ 4,95	€ 4,95
-PIR Bewegingssensor	KW-1909	1	€ 5,95	€ 5,95
-Premium Jumperwires op strip - 40 stuks - M/F - 20cm	JW-MF-40-20	1	€ 4,95	€ 4,95
+Raspberry Pi 3 Model A+	KW-2297	1: € 27,95
+Raspberry Pi Camera Board V2 - 8MP	KW-1702	1: € 29,95
+Transcend 8GB microSD Ultimate 600x Class 10 UHS-I + Adapter - MLC - 90MB/s	TS8GUSDHC10U1	1: € 7,61
+400-punt breadboard	KW-1610	1: € 4,95
+PIR Bewegingssensor	KW-1909	1: € 5,95
+Premium Jumperwires op strip - 40 stuks - M/F - 20cm	JW-MF-40-20	1: € 4,95
 
 totaal: 81.36
 + 2x verzendkosten van 4,95:
@@ -44,8 +44,9 @@ totaal: += 90 euro.
 Raspberry Pi setup.
 
 Om de Raspberry Pi werkend te krijgen, heb ik Raspbian (In samenwerking met Debian, een operating system voor de Raspberry Pi),
-via externe software (BalenaEtcher) op de aangeschafde micro SD kaart 'geflasht'. Vervolgens heb ik de Pi met het toetsenbord
-en de muis aangesloten op mijn TV. Nadat ik verbinding had en in de Pi zat, heb ik hem verbonden met het internet (mijn WiFi thuis).
+via externe software (BalenaEtcher) op de aangeschafde micro SD kaart 'geflasht'. De geflashte software op de micro SD kaart werkt nu
+als operating system in de Pi. Vervolgens heb ik de Pi met het externe toetsenbord en de muis aangesloten op mijn TV. Nadat ik verbinding 
+had en in de Pi zat, heb ik hem verbonden met het internet (mijn WiFi thuis).
 
 Vervolgens heb ik VNC Viewer op mijn laptop geinstalleerd, en via de Viewer op de Pi aan elkaar gelinkt. Hierdoor kan ik via mijn laptop 
 de Pi zien en bedienen, zonder externe display, muis en/of toetsenbord.
