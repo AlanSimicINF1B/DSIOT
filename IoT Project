@@ -3,8 +3,11 @@
 
 v0.1
 Voor mijn IoT project ga ik een volledig functionerende beveiligingscamera maken, die via een bewegingsensor zal werken. 
-De bedoeling is dat via de bewegingssensor de camera foto/foto's maakt van wat er is/wordt bewogen. Vanwege financiele redenen, 
-en het feit dat dit mijn 1e IoT project wordt, zal het geen videocamera worden. Puur foto's gebaseerd op beweging in de omgeving van de sensor.
+De bedoeling is dat via de bewegingssensor de camera foto/foto's maakt van wat er is/wordt bewogen binnen het zicht van de sensor. 
+Vanwege financiele redenen en het feit dat dit mijn 1e IoT project wordt, zal het een vrij simpel werkende camera worden. Foto's en 
+korte video's gebaseerd op beweging in de omgeving van de sensor. Als extraatje wil ik de optie van een melding bij een nieuw gemaakte
+foto krijgen. Hier zal ik dan ook onderzoek naar doen, om te kijken of en hoe het kan, en hoe ik het binnen mijn financiele en fysieke
+omgeving kan laten werken. 
 
 
 Benodigdheden:
