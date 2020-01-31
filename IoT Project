@@ -1,14 +1,31 @@
 ## IoT Project Alan INF1B
 
 
-v0.1
-Voor mijn IoT project ga ik een volledig functionerende beveiligingscamera maken, die via een bewegingsensor zal werken. 
-De bedoeling is dat via de bewegingssensor de camera foto/foto's maakt van wat er is/wordt bewogen binnen het zicht van de sensor. 
-Vanwege financiele redenen en het feit dat dit mijn 1e IoT project wordt, zal het een vrij simpel werkende camera worden. Foto's en 
-korte video's gebaseerd op beweging in de omgeving van de sensor. Als extraatje wil ik de optie van een melding bij een nieuw gemaakte
-foto krijgen. Hier zal ik dan ook onderzoek naar doen, om te kijken of en hoe het kan, en hoe ik het binnen mijn financiele en fysieke
-omgeving kan laten werken. 
+IoT (Internet of Things) is het concept van alle, met het internet verbonden apparaten, die via sensoren data versturen. Met een sensor 
+wordt hierbij dan ook elk apparaat, dat iets in zijn omgeving meet en via het internet heen en weer kan sturen, bedoeld. 
+Dit is vooral handig om het collecteren van verschillende data te automatiseren, zodat er op de juiste manier gebruik van kan worden
+gemaakt. Dit heeft betrekking tot Data Science. Data Science omvat het collecteren, begrijpen en gebruiken van data. Het Internet of 
+Things is opgebouwd in verschillende delen.
 
+1. Het fysieke deel (hardware):
+   Sensoren en actuators (schakelaars)
+   Controllers/Development boards (bv: Raspberry Pi of Arduino)
+
+2. Het Online deel:
+   Netwerk protocollen (bv: TCP/IP, Bluetooth etc)
+   Data opslag en analysatie (bv: De Cloud en ThingSpeak)
+    
+Binnen Data Science is Rapid Prototyping een erg populaire manier om een IoT project op te zetten. In mijn geval ga ik dit met een 
+Raspberry Pi doen. Dit is een mini computer, die je met allerlei sensoren en het internet kan laten verbinden, om zo
+eenvoudig en snel data te kunnen collecteren en gebruiken. 
+
+
+Voor mijn IoT project wil ik een volledig functionerende beveiligingscamera maken, die via een bewegingsensor zal werken. 
+De bedoeling is dat via de bewegingssensor de camera foto/foto's maakt van wat er is/wordt bewogen binnen het zicht van de sensor. 
+
+De beweginssensor dient hier dus als sensor om een vorm van data (bewegingen in dit geval) te kunnen detecteren. Zodra er binnen het 
+zicht van de sensor iets wordt gezien, wordt dit via de camera opgenomen en gevisualiseerd. Dit wordt door de mens uiteindelijk gezien 
+als een foto of video.
 
 Benodigdheden:
   1. Externe display (TV/Monitor)
@@ -23,9 +40,6 @@ Benodigdheden:
   10. Breadboard
   11. Jumper Wires 
   12. 100 Ohm Weerstand
-  13. A way of monitoring and displaying it:
-      ThingSpeak
-      TensorFlow 
   
   
 Kosten van het project:
@@ -45,13 +59,13 @@ totaal: += 90 euro.
 
 Raspberry Pi setup.
 
-Om de Raspberry Pi werkend te krijgen, heb ik Raspbian (In samenwerking met Debian, een operating system voor de Raspberry Pi),
+Om de Raspberry Pi werkend te krijgen, heb ik Raspbian (Het operating system voor de Raspberry Pi),
 via externe software (BalenaEtcher) op de aangeschafde micro SD kaart 'geflasht'. De geflashte software op de micro SD kaart werkt nu
 als operating system in de Pi. Vervolgens heb ik de Pi met het externe toetsenbord en de muis aangesloten op mijn TV. Nadat ik verbinding 
 had en in de Pi zat, heb ik hem verbonden met het internet (mijn WiFi thuis).
 
-Vervolgens heb ik VNC Viewer op mijn laptop geinstalleerd, en via de Viewer op de Pi aan elkaar gelinkt. Hierdoor kan ik via mijn laptop 
-de Pi zien en bedienen, zonder externe display, muis en/of toetsenbord.
+Vervolgens heb ik VNC Viewer op mijn laptop geinstalleerd, en via het IP adres dat mijn laptop en Pi gebruiken, beide aan elkaar 
+gelinkt. Hierdoor kan ik via mijn laptop de Pi zien en bedienen, zonder externe display, muis en/of toetsenbord.
 
 
 Raspberry Pi Camera 8MP setup.
@@ -70,5 +84,16 @@ de foto's, een video onder de gekozen naam (in mijn geval 'video.h264').
 
 De volledige command prompt code ziet er hierbij uit als volgt:
 pi@raspberrypi:~ $ raspivid -o Desktop/video.h264
+
+Ik kan nu succesvol handmatig foto's en video's maken. Het doel is echter wel om dit automatisch gedaan te laten worden, doormiddel van
+de bewegingssensor. 
+
+------
+
+het was nu de bedoeling om via het breadboard de bewegingssensor met mijn Pi te koppelen, en vervolgens foto's en video's te maken 
+wanneer er wordt bewogen. Dit is mij echter niet gelukt. Ik heb op verschillende manieren geprobeerd de sensor te laten werken 
+(met en zonder het breadboard). Ik heb ook niet via het internet de juiste kennis kunnen opdoen, omdat elk project anders is, en ik
+alleen maar meer kosten zou moeten maken
+
 
 
