@@ -1,11 +1,10 @@
 ## IoT Project Alan INF1B
 
 
-IoT (Internet of Things) is het concept van alle, met het internet verbonden apparaten, die via sensoren data versturen. Met een sensor 
-wordt hierbij dan ook elk apparaat, dat iets in zijn omgeving meet en via het internet heen en weer kan sturen, bedoeld. 
-Dit is vooral handig om het collecteren van verschillende data te automatiseren, zodat er op de juiste manier gebruik van kan worden
-gemaakt. Dit heeft betrekking tot Data Science. Data Science omvat het collecteren, begrijpen en gebruiken van data. Het Internet of 
-Things is opgebouwd in verschillende delen.
+IoT (Internet of Things) is het concept van alle, met het internet verbonden apparaten, die via sensoren data versturen.
+Dit wordt gedaan om het collecteren van verschillende data te automatiseren, zodat er op de juiste manier gebruik van kan worden
+gemaakt. Dit heeft betrekking tot Data Science. Data Science omvat het collecteren, maar vooral ook het begrijpen en gebruiken van data.
+Het Internet of Things is opgebouwd in verschillende delen.
 
 1. Het fysieke deel (hardware):
    Sensoren en actuators (schakelaars)
@@ -93,7 +92,11 @@ de bewegingssensor.
 het was nu de bedoeling om via het breadboard de bewegingssensor met mijn Pi te koppelen, en vervolgens foto's en video's te maken 
 wanneer er wordt bewogen. Dit is mij echter niet gelukt. Ik heb op verschillende manieren geprobeerd de sensor te laten werken 
 (met en zonder het breadboard). Ik heb ook niet via het internet de juiste kennis kunnen opdoen, omdat elk project anders is, en ik
-alleen maar meer kosten zou moeten maken
+alleen maar meer kosten zou moeten maken. 
+
+Ik zal in mijn verdere vrije tijd nog veel met de Raspberry Pi spelen, om er meer over te leren en uiteindelijk toch dit project 
+te realiseren. Maar voor binnen de gewenste tijd is het opzetten van een geautomatiseerde camera gefaalt. Handmatig is hij te gebruiken, 
+maar zo verdwijnt als het ware het nut van dit project en mijn uiteindelijke doel. 
 
 
 
